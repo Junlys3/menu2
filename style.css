@@ -81,7 +81,7 @@ main{
         right: 0;
         
 
-        width: 50vw;
+        width: 100vw;
         height: 92vh;
         background: rgb(24, 24, 24);
         
@@ -90,7 +90,7 @@ main{
         justify-content: space-around;
        
         
-       transform: translate(100%);
+      
        
         
         
