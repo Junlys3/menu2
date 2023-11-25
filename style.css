@@ -42,6 +42,7 @@ nav{
     background-color: rgb(24, 24, 24);
     height: 8vh;
    
+    overflow-x: hidden;
 }
 
 main{
@@ -69,12 +70,12 @@ main{
     color: rgba(255, 255, 255, 0.37);
 }
 
-@media (max-width: 800px){
-
+@media (max-width: 999px){
+   
    body{
     transition: 0.5s;
     overflow-x: hidden;
-    
+   
    }
    
     .menu-list{
@@ -91,12 +92,13 @@ main{
         align-items: center;
         justify-content: space-around;
        
-        
-       
         transform: translateX(100%);
+       
+       
         
         transition: 1s;
        
+        overflow-x: hidden;
     }
 
     .menu-list li{
