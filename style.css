@@ -74,7 +74,9 @@ main{
    body{
     transition: 0.5s;
     overflow-x: hidden;
+    
    }
+   
     .menu-list{
         position: absolute;
         top: 8vh;
