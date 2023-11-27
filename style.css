@@ -28,6 +28,12 @@ a{
  width: 32px;
 }
 
+.close{
+    width: 32px;
+    color: #fff;
+    font-size: 40px;
+    
+}
 nav{
     
     display: flex;
@@ -53,7 +59,7 @@ main{
     display: flex;
     list-style: none;
    
-    
+    z-index: 1;
 }
 
 .menu-list li{
@@ -96,6 +102,8 @@ main{
         
         
         transition: 1s;
+
+        transform: translate(0,-110%);
     }
 
     .menu-list li{
