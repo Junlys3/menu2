@@ -14,5 +14,5 @@ menu.style.transform = "translate(0,0)"
 }
 
 function fechar(){
-    menu.style.transform = "translate(0,-110%)"
+    menu.style.transform = "translate(0,-120%)"
 }
