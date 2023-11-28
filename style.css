@@ -29,10 +29,15 @@ a{
 }
 
 .close{
-    width: 32px;
+   height: 10px;
     color: #fff;
     font-size: 40px;
-    
+    cursor: pointer;
+    display: none;
+}
+
+.close:hover{
+    color: #e20303;
 }
 nav{
     
@@ -60,6 +65,7 @@ main{
     list-style: none;
    
     z-index: 1;
+    font-size: 1.2em;
 }
 
 .menu-list li{
@@ -68,13 +74,12 @@ main{
     color: white;
 
     cursor: pointer;
+   
 }
 .menu-list li:hover{
     color: rgba(255, 255, 255, 0.37);
 }
-.close{
-    display: none;
-}
+
 @media (max-width: 999px){
    
    body{
@@ -84,6 +89,7 @@ main{
    }
    nav{
     height: 8vh;
+    padding-top: 10px;
     padding-bottom: 10px;
    }
     .menu-list{
