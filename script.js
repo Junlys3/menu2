@@ -11,15 +11,9 @@ let closeicon = document.querySelector(".close")
 
 function abrir(){
 
-menu.style.opacity = "1"
+ menu.classList.toggle("active")
 
     
 
 }
 
-function fechar(){
-    menu.style.opacity = "0"
-
-
-    
-}

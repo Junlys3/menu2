@@ -58,6 +58,7 @@ main{
     background-size: cover;
     height: 92vh;
     
+    
 }
 
 .menu-list{
@@ -92,6 +93,8 @@ main{
     padding-top: 10px;
     padding-bottom: 10px;
    }
+
+   
     .menu-list{
         position: absolute;
         top: 8vh;
@@ -105,12 +108,9 @@ main{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+
+        
        
-        
-      
-       
-        
-        
         
         transition: 1s;
 
@@ -119,17 +119,19 @@ main{
 
     .menu-list li{
         margin-left: 0;
-        opacity: 1;
+        
 
     }
     .menu-icon{
-        
         display: block;
-        
-        
+
     }
     .close{
         display: block;
+    }
+
+    .active{
+        opacity: 1;
     }
 }
 
