@@ -28,14 +28,6 @@ a{
  width: 32px;
 }
 
-.close{
-   height: 10px;
-    color: #fff;
-    font-size: 40px;
-    cursor: pointer;
-    display: none;
-}
-
 .close:hover{
     color: #e20303;
 }
@@ -81,6 +73,10 @@ main{
     color: rgba(255, 255, 255, 0.37);
 }
 
+
+.active{
+    opacity: 1;
+}
 @media (max-width: 999px){
    
    body{
