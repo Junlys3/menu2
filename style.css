@@ -114,7 +114,7 @@ main{
         
         transition: 1s;
 
-        transform: translate(0,-120%);
+        opacity: 0;
     }
 
     .menu-list li{
